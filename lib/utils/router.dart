@@ -10,6 +10,9 @@ class MyRouter {
         return MaterialPageRoute(builder: (_) => Home());
       case cartRoute:
         return MaterialPageRoute(builder: (_) => Cart());
+      case productDetailsRoute:
+        return MaterialPageRoute(builder: (_) => ProductDetails());
+
       default:
         return MaterialPageRoute(
             builder: (_) => Scaffold(
